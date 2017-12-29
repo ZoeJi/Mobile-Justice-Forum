@@ -1,0 +1,40 @@
+<resources>
+    <string name="hyperlink">http://www.allparksallianceforchange.org/</string>
+    <string name="app_name">APAC</string>
+    <string name="apac_about">ABOUT APAC</string>
+    <string name="apac_about_content">All Parks Alliance for Change is the statewide organization
+        for Minnesota’s 180,000 manufactured home park residents. APAC provides a vehicle for manufactured
+        home owners to express their needs and concerns in their parks and in the larger community.
+        Through education, grassroots organizing and leadership development, APAC works with residents to
+        improve the quality of life in park neighborhoods, protect the rights of park residents,
+        advance public policy change that supports safe, affordable, and stable park communities,
+        and preserve this vital source of affordable housing.</string>
+    <string name="apac_contact">CONTACT APAC</string>
+    <string name="apac_contact_content">
+        Tenant Hotline:\n
+        \t\tMetro 651-644-5525\n
+        \t\tToll Free 1-855-361-2722
+        \n\n
+        State Office:\n
+        \t2380 Wycliff St. #200\n
+        \tSt. Paul, MN 55114\n
+        \t\t    Phone: 651-644-5525\n
+        \t\t    Fax: 651-523-0173\n\n
+        Email:\n
+        \t\tinfo@\n\t\tallparksallianceforchange.org\n\n
+        Website: \n\n</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="action_settings">Action Setting</string>
+    <string name="log_in_activity">Login Activity</string>
+    <string name="sign_up_activity">Sign Up Activity</string>
+    <string name="my_question_activity">My Question Activity</string>
+    <string name="my_answer_activity">My Answer Activity</string>
+    <string name="my_following_activity">My Following Activity</string>
+
+    <string name="API_address">"ec2-54-208-57-4.compute-1.amazonaws.com"</string>
+</resources>

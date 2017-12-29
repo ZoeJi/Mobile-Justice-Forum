@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|center_vertical">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/questionTitle"
+            android:layout_below="@id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:elevation="2dp"
+            />
+
+        <TextView
+            android:id="@+id/questionDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@android:color/black"
+            android:background="@color/colorAccent"
+            android:elevation="2dp"
+            />
+
+        <ListView
+            android:id="@+id/answerList"
+            android:layout_below="@id/questionDesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+        </ListView>
+
+
+
+    </LinearLayout>
+
+    <mobile.apac.com.apac.FloatingActionButton
+        android:id="@+id/answer_btn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:elevation="@dimen/fab_elevation"
+        android:background="@drawable/fab_background"
+        android:stateListAnimator="@animator/fab_anim"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="14dp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/fab_icon_size"
+            android:layout_height="@dimen/fab_icon_size"
+            android:src="@drawable/fab_icons"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:minHeight="@dimen/abc_action_button_min_height_material"
+            android:minWidth="@dimen/abc_action_button_min_width_material"
+            android:maxWidth="56dp"
+            android:maxHeight="56dp"
+            />
+
+    </mobile.apac.com.apac.FloatingActionButton>
+
+</FrameLayout>

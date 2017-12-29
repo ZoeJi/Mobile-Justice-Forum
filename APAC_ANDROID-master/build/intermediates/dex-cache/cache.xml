@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/haklim/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-301228ceeaf590edc1a0d890e66ff6af1bc74a82.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-ebc469a2009e4c49a92432660db4626549413f09.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/classes-b61455345c7936f644bdfa3376fef13092a3d2df.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-c5ae4b736b326af861a4de4667c1caae40f2a95e.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/classes-752719e84b9d233f75786a931e80f1e1ac7155f3.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/classes-016d8f6ee262c6a1d75089bbab3dee9d682100c6.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/classes-4bee93fce42b0560956643ce5a526226ed78385d.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/gson-2.4-8ef63e089826e72c89993359b67815a92144f3a8.jar" />
+    </item>
+    <item
+        jar="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/haklim/AndroidstudioProjects/APAC_ANDROID/app/build/intermediates/pre-dexed/debug/classes-5301265ac180530f90541ea0978bb855b0a3120b.jar" />
+    </item>
+
+</items>

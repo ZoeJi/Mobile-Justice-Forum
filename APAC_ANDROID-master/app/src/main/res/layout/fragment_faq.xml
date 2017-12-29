@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/forumList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp">
+    </ListView>
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|right">
+
+        <mobile.apac.com.apac.FloatingActionButton
+            android:id="@+id/refresh_btn"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:elevation="@dimen/fab_elevation"
+            android:background="@drawable/fab_background"
+            android:stateListAnimator="@animator/fab_anim"
+            android:layout_margin="14dp">
+
+            <ImageView
+                android:layout_width="@dimen/fab_icon_size"
+                android:layout_height="@dimen/fab_icon_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_action_refresh"
+                android:duplicateParentState="true"
+                android:minHeight="@dimen/abc_action_button_min_height_material"
+                android:minWidth="@dimen/abc_action_button_min_width_material"
+                android:maxWidth="60dp"
+                android:maxHeight="60dp" />
+
+        </mobile.apac.com.apac.FloatingActionButton>
+
+    </LinearLayout>
+    -->
+
+</FrameLayout>

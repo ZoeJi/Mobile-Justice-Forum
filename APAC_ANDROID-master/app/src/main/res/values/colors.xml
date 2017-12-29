@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#2196F3</color>
+    <color name="ColorPrimaryDark">#1976D2</color>
+    <color name="tabsScrollColor">#1976D2</color>
+    <color name="colorAccent">#64B5F6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="iron">#CCCCCC</color>
+
+    <color name="fab_color_1">#FBC02D</color>
+    <color name="fab_color_1_muted">#FFEB3B</color>
+    <color name="fab_color_2">#FBC02D</color>
+    <color name="fab_color_2_muted">#FFEB3B</color>
+    <color name="light_gray">#A0A0A0</color>
+
+</resources>
+
+

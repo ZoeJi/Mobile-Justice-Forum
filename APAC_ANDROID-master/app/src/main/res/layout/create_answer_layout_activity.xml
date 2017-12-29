@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+        <Button
+            android:id="@+id/answerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Submit"
+            android:textColor="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:id="@+id/answerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:elevation="2dp"
+            />
+
+        <TextView
+            android:id="@+id/answerDesc"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"
+            android:elevation="2dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/answerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:hint="Add your Answer here"
+                android:gravity="top"
+                android:lines="6"
+                android:elevation="@dimen/cardview_default_elevation"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

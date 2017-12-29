@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp"
+            android:layout_marginBottom="0dp"
+            android:isScrollContainer="true">
+
+            <RelativeLayout
+                android:id="@+id/top_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about_apac"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/margin_title"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorAccent"
+                    android:alpha="0.8"
+                    android:textColor="@color/ColorPrimaryDark"
+                    android:textSize="@dimen/title_textSize"
+                    android:text="@string/apac_about"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:layout_below="@id/about_apac"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginBottom="@dimen/margin_medium"/>
+                <TextView
+                    android:id="@+id/about_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="2dp"
+                    android:alpha="0.8"
+                    android:textColor="#ff272727"
+                    android:textSize="@dimen/content_textSize"
+
+                    android:layout_below="@id/logo"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp"
+            android:layout_marginBottom="0dp">
+
+            <RelativeLayout
+                android:id="@+id/top_layout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/contact_apac"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/margin_title"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorAccent"
+                    android:alpha="0.8"
+                    android:textColor="@color/ColorPrimaryDark"
+                    android:textSize="@dimen/title_textSize"
+                    android:text="@string/apac_contact"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/contact_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="2dp"
+                    android:alpha="0.8"
+                    android:textColor="#ff272727"
+                    android:textSize="@dimen/content_textSize"
+                    android:text="@string/apac_contact_content"
+                    android:layout_below="@+id/contact_apac"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="22dp"
+                        android:alpha="0.8"
+                        android:textSize="14sp"
+                        android:text="@string/hyperlink"
+                        android:id="@+id/hyperlink"
+                        android:autoLink="web"
+                        android:layout_below="@+id/contact_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentTop="true"
+                        >
+                    </TextView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
