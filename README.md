@@ -15,3 +15,15 @@ Easier and quicker to get answer instead of calling the office
 
 ### Age of users varies and elder people are not familiar with using APP
 - Can be used by both younger who prefer using account and elder people who can interact without having an account.
+
+## Protocol and Evaluation Design:
+4 independent tests
+- Metrics: time (second) and # of steps
+
+Protocol: 9 Tasks
+- 13 people (3 community partners):
+- 10 young adults (20s - 30s)
+- 2 adults (30s - 50s)
+- 1 elderly (65+)
+
+![Screenshots](justice-forum.png?raw=true "Title")
